@@ -9,7 +9,7 @@ class NumberPuzzleGame{
 
     public int solve() {
         if (number < 10 || number > 99) {
-            System.out.println("Invalid number");
+            System.out.println("It's a Invalid number");
             return -1;
         }
 
@@ -54,4 +54,4 @@ Result: 4
 
 
 Enter the number: 9
-Invalid number
+It's a Invalid number
