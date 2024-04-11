@@ -1,4 +1,4 @@
-public class  implements BonusPoints, DoorDelivery {
+public class CustomerDetails implements BonusPoints, DoorDelivery {
     private String customerName;
     private String phoneNumber;
     private String streetName;
