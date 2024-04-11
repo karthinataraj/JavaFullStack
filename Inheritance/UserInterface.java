@@ -6,19 +6,19 @@ public class UserInterface {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter the customer name");
+        System.out.println("Enter customer name");
         String customerName = sc.nextLine();
 
-        System.out.println("Enter the phone number");
+        System.out.println("Enter phone number");
         String phoneNumber = sc.nextLine();
 
-        System.out.println("Enter the street name");
+        System.out.println("Enter street name");
         String streetName = sc.nextLine();
 
-        System.out.println("Enter the bill amount");
+        System.out.println("Enter bill amount");
         double billAmount = sc.nextDouble();
 
-        System.out.println("Enter the distance");
+        System.out.println("Enter distance");
         int distance = sc.nextInt();
 
         CustomerDetails customer = new CustomerDetails(customerName, phoneNumber, streetName, billAmount, distance);
